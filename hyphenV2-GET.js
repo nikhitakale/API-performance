@@ -33,7 +33,7 @@ export default function sanityPerfTestSuite() {
             new Get('/api/v1/admin/supported-token/list?networkId=1'),  
           ],
           {
-            tags: { name: 'GetPoolInfo' },
+            tags: { name: 'Get Token Info' },
           }
         );
     // CHECKS
