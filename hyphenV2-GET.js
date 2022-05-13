@@ -14,8 +14,8 @@ export let options = {
   throw: true,
   noCookiesReset: true,
   noConnectionReuse: false,
-  duration: '1m',
-  vus: 50,
+  duration: '2s',
+  vus: 1,
 };
 
 const session = new Httpx(
